@@ -1085,9 +1085,9 @@ const CONFIG = {
   // one of: "note" | "flip" | "sparkle" | "second" | "date" | null
   // ----------------------------------------------------------------
   photos: [
-    { id:"p01", src="Bg.png", caption:"This face 😂", date:"a tuesday, unclear year", location:"somewhere loud", note:"You didn't know this was being taken.", rotation:-3, tags:["drop","funny"], },
+    { id:"p01", src:"Bg.png", caption:"This face 😂", date:"a tuesday, unclear year", location:"somewhere loud", note:"You didn't know this was being taken.", rotation:-3, tags:["drop","funny"], },
     { id:"p02", seed:"Bg.png", caption:"Still funny.", date:"months later", location:"the group chat", note:"It has not stopped being funny.", rotation:2, tags:["drop","funny"] },
-    { id:"p03", seed:"keepsake-03", caption:"You were so happy here.", date:"that one weekend", location:"somewhere with good light", note:"This is the version I remember.", rotation:-1, tags:["drop","beautiful","favorite"] },
+    { id:"p03", src:"firstone.jpg", caption:"You were so happy here.", date:"that one weekend", location:"somewhere with good light", note:"This is the version I remember.", rotation:-1, tags:["drop","beautiful","favorite"] },
     { id:"p04", seed:"keepsake-04", caption:"Peak chaos.", date:"unclear, honestly", location:"chaos, generally", note:"No further comment.", rotation:4, tags:["drop","funny","joke"] },
     { id:"p05", seed:"keepsake-05", caption:"This one deserved saving.", date:"an ordinary day", location:"nowhere special", note:"Ordinary days are underrated.", rotation:-2, tags:["drop","tiny"] },
     { id:"p06", seed:"keepsake-06", caption:"You looked genuinely proud.", date:"the good day", location:"you know the one", note:"You should look like this more often.", rotation:1, tags:["drop","beautiful"] },
@@ -1171,7 +1171,7 @@ const CONFIG = {
   // OPTIONAL — real ambient audio file(s). Leave empty to use the
   // built-in generative ambient pad instead. { url: "your-file.mp3" }
   // ----------------------------------------------------------------
-  songs: src = "Azhaipaiya.mp3",
+  songs: {src:"Azhaipaiya.mp3"},
 
   // ----------------------------------------------------------------
   // FINAL / OPTIONAL LETTER
@@ -1196,7 +1196,7 @@ const CONFIG = {
     { emoji:"🎯", text:"Random fact: your taste is annoyingly good." },
     { emoji:"🃏", text:"Wildcard: today's forecast is 100% you being iconic." },
     { emoji:"✨", text:"Bonus round: no memory attached, just vibes." },
-    { emoji:"🔮", text:"Prediction: you're about to smile for no reason." }
+    { emoji:"🪧", text:"Letter: gopz smile for no reason." }
   ],
 
   // ----------------------------------------------------------------
@@ -1261,7 +1261,7 @@ const CONFIG = {
       "You're one of them.",
       "Thank you for the laughs, the ordinary days, and for being exactly who you are.",
       "Wherever life takes you, you deserve every good thing.",
-      "Happy {date}."
+      "Happy Birthday Gopz {date}."
     ]
   },
 
