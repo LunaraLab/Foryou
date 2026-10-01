@@ -1086,7 +1086,7 @@ const CONFIG = {
   //   hook: { photo:{ src:"photos/cover.jpg" } }
   // Leave `photo` as null to use photo "p03" (or the first favorite).
   // ----------------------------------------------------------------
-  hook: { photo: null },
+  hook: { photo: { src:"unpic.jpeg" }},
 
   // true = start the music when she taps "Open" (browsers only allow
   // sound after a tap, so that's the earliest it can begin).
@@ -1104,8 +1104,8 @@ const CONFIG = {
   // one of: "note" | "flip" | "sparkle" | "second" | "date" | null
   // ----------------------------------------------------------------
   photos: [
-    { id:"p01", seed:"keepsake-01", caption:"This face 😂", date:"a tuesday, unclear year", location:"somewhere loud", note:"You didn't know this was being taken.", rotation:-3, tags:["drop","funny"] },
-    { id:"p02", seed:"keepsake-02", caption:"Still funny.", date:"months later", location:"the group chat", note:"It has not stopped being funny.", rotation:2, tags:["drop","funny"] },
+    { id:"p01", src:"unpic.jpeg", caption:"This face 😂", date:"a tuesday, unclear year", location:"somewhere loud", note:"You didn't know this was being taken.", rotation:-3, tags:["drop","funny"] },
+    { id:"p02", seed:"unpic.jpeg", caption:"Still funny.", date:"months later", location:"the group chat", note:"It has not stopped being funny.", rotation:2, tags:["drop","funny"] },
     { id:"p03", seed:"keepsake-03", caption:"You were so happy here.", date:"that one weekend", location:"somewhere with good light", note:"This is the version I remember.", rotation:-1, tags:["drop","beautiful","favorite"] },
     { id:"p04", seed:"keepsake-04", caption:"Peak chaos.", date:"unclear, honestly", location:"chaos, generally", note:"No further comment.", rotation:4, tags:["drop","funny","joke"] },
     { id:"p05", seed:"keepsake-05", caption:"This one deserved saving.", date:"an ordinary day", location:"nowhere special", note:"Ordinary days are underrated.", rotation:-2, tags:["drop","tiny"] },
@@ -1194,7 +1194,7 @@ const CONFIG = {
   // — YouTube, Spotify and Google Drive share links will NOT play.
   // If a file can't load, the built-in pad plays instead.
   // ----------------------------------------------------------------
-  songs: [],
+  songs: [{ url:"wedsong.mp3" }],
 
   // ----------------------------------------------------------------
   // FINAL / OPTIONAL LETTER
