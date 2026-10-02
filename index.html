@@ -1086,7 +1086,7 @@ const CONFIG = {
   //   hook: { photo:{ src:"photos/cover.jpg" } }
   // Leave `photo` as null to use photo "p03" (or the first favorite).
   // ----------------------------------------------------------------
-  hook: { photo: { src:"unpic.jpeg" }},
+  hook: { photo: { src:"assets/background.jpg" }},
 
   // true = start the music when she taps "Open" (browsers only allow
   // sound after a tap, so that's the earliest it can begin).
@@ -1104,7 +1104,7 @@ const CONFIG = {
   // one of: "note" | "flip" | "sparkle" | "second" | "date" | null
   // ----------------------------------------------------------------
   photos: [
-    { id:"p01", src:"unpic.jpeg", caption:"This face 😂", date:"a tuesday, unclear year", location:"somewhere loud", note:"You didn't know this was being taken.", rotation:-3, tags:["drop","funny"] },
+    { id:"p01", src:"assets/tab1a.jpg", caption:"This face 😂", date:"a tuesday, unclear year", location:"somewhere loud", note:"You didn't know this was being taken.", rotation:-3, tags:["drop","funny"] },
     { id:"p02", seed:"unpic.jpeg", caption:"Still funny.", date:"months later", location:"the group chat", note:"It has not stopped being funny.", rotation:2, tags:["drop","funny"] },
     { id:"p03", seed:"keepsake-03", caption:"You were so happy here.", date:"that one weekend", location:"somewhere with good light", note:"This is the version I remember.", rotation:-1, tags:["drop","beautiful","favorite"] },
     { id:"p04", seed:"keepsake-04", caption:"Peak chaos.", date:"unclear, honestly", location:"chaos, generally", note:"No further comment.", rotation:4, tags:["drop","funny","joke"] },
@@ -1194,7 +1194,7 @@ const CONFIG = {
   // — YouTube, Spotify and Google Drive share links will NOT play.
   // If a file can't load, the built-in pad plays instead.
   // ----------------------------------------------------------------
-  songs: [{ url:"wedsong.mp3" }],
+  songs: [{ url:"assets/wedsong.mp3" }],
 
   // ----------------------------------------------------------------
   // FINAL / OPTIONAL LETTER
@@ -1250,7 +1250,7 @@ const CONFIG = {
       "The day this started.",
       "Just glad it did."
     ],
-    photo: { seed:"keepsake-anniv", caption:"this one, for now", date:"08/10/2023", location:"—" }
+    photo: { src:"assets/firstone.jpg", caption:"this one, for now", date:"08/10/2023", location:"—" }
   },
 
   // ----------------------------------------------------------------
@@ -1284,7 +1284,7 @@ const CONFIG = {
       "You're one of them.",
       "Thank you for the laughs, the ordinary days, and for being exactly who you are.",
       "Wherever life takes you, you deserve every good thing.",
-      "Happy {date}."
+      "Happy Birthday Gopz {date}."
     ]
   },
 
@@ -1294,7 +1294,7 @@ const CONFIG = {
   // ----------------------------------------------------------------
   final: {
     eyebrow: "one last photo",
-    photo: { seed:"keepsake-final", caption:"saved for last" },
+    photo: { src:"assets/lastone.jpg", caption:"Not yet happen" },
     backLine1: "Saved this one for last.",
     backLine2: "Thanks for being you."
   },
